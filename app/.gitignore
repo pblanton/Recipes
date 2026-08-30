@@ -1,0 +1,4 @@
+node_modules/
+dist/
+src/recipes-index.json
+public/images/
