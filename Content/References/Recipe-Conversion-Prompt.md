@@ -28,6 +28,8 @@ note explaining you did so, just make the change silently:
   produce two separate files — one as written and one gluten-free.
 - Common poultry (chicken, turkey, duck), beef, lamb, venison, and fish with fins and
   scales are all fine.
+- If a recipe originally included any of these, add a section at the end of the file
+  describing the original ingredients, what was changed, and why. 
 
 ---
 
