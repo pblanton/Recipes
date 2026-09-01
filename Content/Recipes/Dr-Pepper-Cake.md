@@ -34,7 +34,7 @@ A classic Texas sheet cake — baked thin on a rimmed sheet pan, then topped wit
 ## Ingredients
 
 **Sheet Cake**
-- 1 1/2 cups Dr Pepper
+- 1 1/2 cups Dr Pepper (One 12oz. can. Uses the whole can.)
 - 1 cup butter
 - 1/2 cup unsweetened cocoa
 - 2 cups all-purpose flour
@@ -49,7 +49,7 @@ A classic Texas sheet cake — baked thin on a rimmed sheet pan, then topped wit
 **Rich Fudge Icing**
 - 1/2 cup butter
 - 1/4 cup unsweetened cocoa
-- 1/4 cup Dr Pepper
+- 1/4 cup Dr Pepper (1/3 of a 12oz. can. Drink the rest. It's delicious)
 - 2 tablespoons whole milk
 - 4 cups powdered sugar, sifted
 - 1 teaspoon vanilla extract
