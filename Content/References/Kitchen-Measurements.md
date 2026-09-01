@@ -60,4 +60,4 @@
 
 ## Notes
 
-- The frying temperatures above are now confirmed against the original table. The volume and weight conversions are drawn from standard reference values rather than transcribed cell-by-cell, since the source file's table structure didn't survive text extraction cleanly — the numbers check out against the fragments that did come through, but flag anything that looks off.
+

@@ -279,6 +279,49 @@ main {
   color: var(--accent);
 }
 
+.recipe-view table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: system-ui, sans-serif;
+  font-size: 0.875rem;
+  margin: 1rem 0 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.recipe-view th {
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  text-align: left;
+  padding: 0.55rem 0.85rem;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.recipe-view th:last-child {
+  border-right: none;
+}
+
+.recipe-view td {
+  padding: 0.5rem 0.85rem;
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.recipe-view td:last-child {
+  border-right: none;
+}
+
+.recipe-view tr:last-child td {
+  border-bottom: none;
+}
+
+.recipe-view tr:nth-child(even) td {
+  background: #f5f0e8;
+}
+
 @media (max-width: 600px) {
   header {
     padding: 0.75rem 1rem;
