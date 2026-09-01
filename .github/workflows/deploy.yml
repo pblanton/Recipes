@@ -34,7 +34,7 @@ jobs:
       - name: Copy recipe images
         run: |
           mkdir -p app/public/images
-          find Markdown -maxdepth 1 \( -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" -o -name "*.webp" -o -name "*.gif" \) \
+          find Content/Images -maxdepth 1 \( -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" -o -name "*.webp" -o -name "*.gif" \) \
             -exec cp {} app/public/images/ \; 2>/dev/null || true
 
       - name: Build

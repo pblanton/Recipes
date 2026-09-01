@@ -3,7 +3,8 @@ import { join, dirname, basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const markdownDir = join(__dirname, '../../Markdown');
+const recipesDir = join(__dirname, '../../Content/Recipes');
+const imagesDir = join(__dirname, '../../Content/Images');
 const outputFile = join(__dirname, '../src/recipes-index.json');
 const publicImagesDir = join(__dirname, '../public/images');
 
@@ -30,14 +31,14 @@ function extractQuickInfo(content) {
 }
 
 async function main() {
-  const files = await readdir(markdownDir).catch(() => []);
+  const recipeFiles = await readdir(recipesDir).catch(() => []);
+  const imageFiles = await readdir(imagesDir).catch(() => []);
 
   const recipes = [];
-  for (const file of files) {
+  for (const file of recipeFiles) {
     if (!file.endsWith('.md')) continue;
-    if (file === '00-Dietary-Standard.md') continue;
 
-    const raw = await readFile(join(markdownDir, file), 'utf-8');
+    const raw = await readFile(join(recipesDir, file), 'utf-8');
     const content = stripHtmlComments(raw).trim();
     const slug = basename(file, '.md').toLowerCase();
 
@@ -54,12 +55,12 @@ async function main() {
   await writeFile(outputFile, JSON.stringify(recipes, null, 2));
   console.log(`Built index: ${recipes.length} recipes`);
 
-  // Copy images from Markdown/ to public/images/ for local dev
+  // Copy images from Content/Images/ to public/images/ for local dev
   await mkdir(publicImagesDir, { recursive: true });
   const imageExts = /\.(jpg|jpeg|png|webp|gif)$/i;
-  for (const file of files) {
+  for (const file of imageFiles) {
     if (imageExts.test(file)) {
-      await copyFile(join(markdownDir, file), join(publicImagesDir, file));
+      await copyFile(join(imagesDir, file), join(publicImagesDir, file));
     }
   }
 }

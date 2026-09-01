@@ -5,7 +5,8 @@
     2. Italic one-line tagline
     3. Quick Info line (Servings | Prep | Cook | Total)
     4. "About This Recipe" — short original-words headnote, 2-4 sentences max
-    5. Photo — ![Recipe Name](./Recipe-Name.jpg), or an HTML comment placeholder
+    5. Photo — an image link if a photo is available, or an HTML placeholder comment
+       noting the expected filename if not (see this file's Photo section for the exact form)
     6. "Ingredients" — grouped under bolded sub-headers when a recipe has components (base, toppings, sauce, etc.)
     7. "Directions" — numbered steps
     8. "Notes & Tips" — substitutions, make-ahead, storage, nutrition info if given
