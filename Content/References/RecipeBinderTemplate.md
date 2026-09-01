@@ -13,14 +13,26 @@ tags: [tag1, tag2, tag3]
 
 <!--
   RECIPE BINDER TEMPLATE (v2)
-  ... (keep the full comment block so the template is self-documenting)
+  Reuse this exact section order/structure for every future recipe:
+    1. H1 Title
+    2. Italic one-line tagline
+    3. Quick Info line (Servings | Prep | Cook | Total)
+    4. "About This Recipe" — short original-words headnote, 2-4 sentences max
+    5. Photo — ![Recipe Name](./Recipe-Name.jpg), or an HTML comment placeholder
+    6. "Ingredients" — grouped under bolded sub-headers when a recipe has components
+    7. "Directions" — numbered steps
+    8. "Notes & Tips" — substitutions, make-ahead, storage
+    9. "Family Notes" — (optional) the story behind the recipe
+   10. "Source" — where the recipe was adapted from, if applicable
+  Dietary standard (clean eating, oil substitutions) lives once in 00-Dietary-Standard.md at
+  the front of the binder — do not repeat it per recipe.
 -->
 
 # Recipe Title
 
 *One-line italic tagline describing the dish.*
 
-**Servings:** N | **Prep Time (Active):** X min | **Cook Time:** X min | **Total Time:** X min
+**Servings:** N | **Prep Time:** X min | **Cook Time:** X min | **Total Time:** X min
 
 ## About This Recipe
 
@@ -39,6 +51,12 @@ tags: [tag1, tag2, tag3]
 ## Notes & Tips
 
 - Tip
+
+## Family Notes
+
+Who brought this recipe into the family, when it first appeared at the table, a memory
+tied to it. This is optional — omit the section entirely if you don't have a story.
+This is the heart of what makes a family cookbook worth reading.
 
 ## Source
 
@@ -60,8 +78,9 @@ Adapted from ...
 | 6 | Photo | `![Title](./Filename.jpg)` — image file goes in `Content/Images/` |
 | 7 | Ingredients | Grouped under **bolded sub-headers** when the recipe has components |
 | 8 | Directions | Numbered steps |
-| 9 | Notes & Tips | Substitutions, make-ahead, storage |
-| 10 | Source | Where the recipe was adapted from, if applicable |
+| 9 | Notes & Tips | Substitutions, make-ahead, storage, common mistakes |
+| 10 | Family Notes | Optional — the story behind the recipe; who taught it, when, memories tied to it |
+| 11 | Source | Where the recipe was adapted from, if applicable |
 
 The dietary standard (clean eating, oil substitutions) lives once in `Content/References/00-Dietary-Standard.md` — do not repeat it per recipe.
 
@@ -76,7 +95,9 @@ Tags drive the filter UI in the recipe binder app. Every recipe should have at l
 |-----|----------|
 | `beef` | Primary protein is beef |
 | `chicken` | Primary protein is chicken |
-| `seafood` | Primary protein is fish or shellfish |
+| `lamb` | Primary protein is lamb |
+| `deer` | Primary protein is venison |
+| `seafood` | Primary protein is fish (must have fins and scales) |
 
 ### Course / Type
 | Tag | Use when |
@@ -101,9 +122,21 @@ Tags drive the filter UI in the recipe binder app. Every recipe should have at l
 ### Method
 | Tag | Use when |
 |-----|----------|
-| `slow-cooker` | Primary method is slow cooker or long braise |
+| `slow-cooker` | Primary method is slow cooker or long unattended braise |
 
 Tags are additive — use as many as apply. The app filter uses AND logic: selecting multiple tags narrows results to recipes that have all of them.
+
+---
+
+## Format Notes for Book Publication
+
+This binder is intended to eventually be published as a family cookbook. Keep these in mind when writing:
+
+- **Ingredient lists are bullet lists, not tables.** This is the standard for both web display and print layout, and it converts cleanly to any publishing format (Pandoc, InDesign, Word).
+- **Tables belong in reference material** — temperature charts, measurement conversions, substitution comparisons — not in individual recipe sections.
+- **Family Notes is the most important section for the book.** Stories, memories, and provenance are what distinguish a family cookbook from a generic one. Capture them now while you can.
+- **Write About This Recipe in your own words.** Copied text from websites creates copyright issues in a published book.
+- **Source attribution matters.** If a recipe is adapted from a book or website, note it. If it's a family original, say so.
 
 ---
 
