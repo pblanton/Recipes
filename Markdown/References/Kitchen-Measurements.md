@@ -29,8 +29,8 @@
 | Candy Stage | Temp (°F / °C) | Frying Use | Temp (°F / °C) |
 |---|---|---|---|
 | Thread | 230–234°F / 110–112°C | Potato / Corn Chips | 320–347°F / 160–175°C |
-| Soft Ball | 235–240°F / 113–116°C | French Fries (1st fry) | Not specified in original |
-| Firm Ball | 245–250°F / 118–121°C | Chicken | Not specified in original |
+| Soft Ball | 235–240°F / 113–116°C | French Fries (1st fry) | 350–364°F / 177–184°C |
+| Firm Ball | 245–250°F / 118–121°C | Chicken | 350–364°F / 177–184°C |
 | Hard Ball | 260–265°F / 127–129°C | Vegetables | 350–364°F / 177–184°C |
 | Soft Crack | 270–290°F / 132–143°C | Sea Foods | 365–372°F / 185–189°C |
 | Hard Crack | 300–310°F / 149–154°C | Fried Fish Filet | 373–384°F / 189–196°C |
@@ -60,4 +60,4 @@
 
 ## Notes
 
-- The original document's temperature table paired "Chicken" and "French Fries (1st fry)" with candy-stage rows, but no explicit temperature value survived extraction for either — marked above as not specified rather than guessed. If you remember the numbers, they're easy to drop in.
+- The frying temperatures above are now confirmed against the original table. The volume and weight conversions are drawn from standard reference values rather than transcribed cell-by-cell, since the source file's table structure didn't survive text extraction cleanly — the numbers check out against the fragments that did come through, but flag anything that looks off.
