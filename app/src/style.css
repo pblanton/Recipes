@@ -39,7 +39,60 @@ header {
   color: var(--accent-hover);
 }
 
+/* App layout */
+
+.app-body {
+  display: flex;
+  align-items: flex-start;
+}
+
+.sidebar {
+  width: 210px;
+  flex-shrink: 0;
+  border-right: 1px solid var(--border);
+  padding: 1.5rem 1rem;
+  position: sticky;
+  top: 0;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.sidebar-heading {
+  font-family: system-ui, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+  padding: 0 0.5rem;
+}
+
+.sidebar-link {
+  display: block;
+  font-family: system-ui, sans-serif;
+  font-size: 0.875rem;
+  color: var(--text);
+  text-decoration: none;
+  padding: 0.35rem 0.5rem;
+  border-radius: 4px;
+  margin-bottom: 0.15rem;
+  transition: color 0.15s, background 0.15s;
+}
+
+.sidebar-link:hover {
+  color: var(--accent);
+  background: var(--bg);
+}
+
+.sidebar-link.active {
+  color: var(--accent);
+  font-weight: 600;
+}
+
 main {
+  flex: 1;
+  min-width: 0;
   padding: 2rem 0;
 }
 
@@ -229,6 +282,16 @@ main {
 @media (max-width: 600px) {
   header {
     padding: 0.75rem 1rem;
+  }
+  .app-body {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    position: static;
+    max-height: none;
   }
   .recipe-view h1 {
     font-size: 1.5rem;

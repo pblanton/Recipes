@@ -5,7 +5,9 @@ import { fileURLToPath } from 'node:url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const recipesDir = join(__dirname, '../../Content/Recipes');
 const imagesDir = join(__dirname, '../../Content/Images');
+const referencesDir = join(__dirname, '../../Content/References');
 const outputFile = join(__dirname, '../src/recipes-index.json');
+const referencesOutputFile = join(__dirname, '../src/references-index.json');
 const publicImagesDir = join(__dirname, '../public/images');
 
 function parseFrontmatter(raw) {
@@ -67,6 +69,20 @@ async function main() {
   recipes.sort((a, b) => a.title.localeCompare(b.title));
   await writeFile(outputFile, JSON.stringify(recipes, null, 2));
   console.log(`Built index: ${recipes.length} recipes`);
+
+  // Build references index
+  const refFiles = await readdir(referencesDir).catch(() => []);
+  const references = [];
+  for (const file of refFiles) {
+    if (!file.endsWith('.md')) continue;
+    const raw = await readFile(join(referencesDir, file), 'utf-8');
+    const content = stripHtmlComments(raw).trim();
+    const slug = basename(file, '.md').toLowerCase().replace(/^\d+-/, '');
+    references.push({ slug, title: extractTitle(content), content });
+  }
+  references.sort((a, b) => a.title.localeCompare(b.title));
+  await writeFile(referencesOutputFile, JSON.stringify(references, null, 2));
+  console.log(`Built references: ${references.length} docs`);
 
   // Copy images from Content/Images/ to public/images/ for local dev
   await mkdir(publicImagesDir, { recursive: true });
