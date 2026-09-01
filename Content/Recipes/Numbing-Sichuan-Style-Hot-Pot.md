@@ -1,3 +1,7 @@
+---
+tags: [soup, beef, seafood, spicy, main]
+---
+
 <!--
   RECIPE BINDER TEMPLATE (v1)
   Reuse this exact section order/structure for every future recipe:

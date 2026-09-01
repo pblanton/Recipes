@@ -8,6 +8,17 @@ const imagesDir = join(__dirname, '../../Content/Images');
 const outputFile = join(__dirname, '../src/recipes-index.json');
 const publicImagesDir = join(__dirname, '../public/images');
 
+function parseFrontmatter(raw) {
+  const match = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n/);
+  if (!match) return { tags: [], body: raw };
+  const yaml = match[1];
+  const tagsMatch = yaml.match(/^tags:\s*\[([^\]]*)\]/m);
+  const tags = tagsMatch
+    ? tagsMatch[1].split(',').map(t => t.trim().replace(/['"]/g, '')).filter(Boolean)
+    : [];
+  return { tags, body: raw.slice(match[0].length) };
+}
+
 function stripHtmlComments(content) {
   return content.replace(/<!--[\s\S]*?-->/g, '');
 }
@@ -39,7 +50,8 @@ async function main() {
     if (!file.endsWith('.md')) continue;
 
     const raw = await readFile(join(recipesDir, file), 'utf-8');
-    const content = stripHtmlComments(raw).trim();
+    const { tags, body } = parseFrontmatter(raw);
+    const content = stripHtmlComments(body).trim();
     const slug = basename(file, '.md').toLowerCase();
 
     recipes.push({
@@ -47,6 +59,7 @@ async function main() {
       title: extractTitle(content),
       tagline: extractTagline(content),
       quickInfo: extractQuickInfo(content),
+      tags,
       content,
     });
   }

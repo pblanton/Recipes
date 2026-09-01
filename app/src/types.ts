@@ -3,5 +3,6 @@ export interface Recipe {
   title: string;
   tagline: string;
   quickInfo: string;
+  tags: string[];
   content: string;
 }

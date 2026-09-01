@@ -1,3 +1,7 @@
+---
+tags: [soup, side, vegetarian]
+---
+
 <!--
   RECIPE BINDER TEMPLATE (v2)
   Reuse this exact section order/structure for every future recipe:
