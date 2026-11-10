@@ -1,6 +1,7 @@
 # Recipes
 
-A personal recipe binder — markdown files on disk, React app in the browser.
+A personal recipe binder — markdown files on disk, React app in the browser. Hosted at 
+https://pblanton.github.io/Recipes/
 
 ## Structure
 
