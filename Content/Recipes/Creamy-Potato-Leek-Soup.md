@@ -19,11 +19,11 @@ tags: [soup, side, vegetarian]
   the front of the binder — do not repeat it per recipe.
 -->
 
-# Creamy Leek Soup
+# Creamy Potato Leek Soup
 
 *A simple, brothy leek and potato soup finished with a splash of white wine and milk.*
 
-**Servings:** Not specified in original | **Prep Time:** Not specified | **Cook Time:** ~10 min active | **Total Time:** Not specified
+**Cook Time:** ~10 minutes 
 
 ## About This Recipe
 
@@ -57,8 +57,7 @@ A straightforward, five-minutes-of-effort soup: potatoes and aromatics get a qui
 ## Notes & Tips
 
 - Cook a double batch and freeze half for another dinner.
-- The original instructions mention adding "broth" along with the leeks and wine, but no broth appears in the ingredient list — likely an error carried over from the source site. As written above, the leeks go in with just the wine (or water).
 
 ## Source
 
-Adapted from a recipe originally posted at cinnamonlizard.com/creamy-fresh-leek-soup.
+Mary Ann Blanton
