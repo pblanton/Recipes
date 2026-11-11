@@ -62,11 +62,11 @@ Optional
 
 Secret Sauce...
 
-2. Melt the butter in a small saucepan over low heat or in the microwave. 
+2. Melt the butter in a small saucepan over low heat. 
    - While still warm, stir in the granulated and brown sugars.
    - If the sugars don't melt into the butter, add a splash of the heavy cream, half-and-half or milk as necessary.
    - You can substitute a little water if you are trying to avoid dairy, but since you're starting with butter... meh. 
-   - The sugar should melt and turn into a caramel sauce.    
+   - The sugar should melt and turn into a creamy caramel sauce.    
 
 
 3. In a medium bowl, mix up the eggs and vanilla until it is all smooth, then whisk in the caramel sauce vigorously for 1–2 minutes, until the mixture is smooth and glossy.
