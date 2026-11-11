@@ -80,7 +80,7 @@ Secret Sauce...
 6. Let the batter rest for 10 minutes to hydrate the gluten-free flour, then spread evenly into the prepared pan.
 
 
-7. Bake for 25–30 minutes, until the edges are set and a toothpick inserted near the center comes out clean.
+7. Bake for 25 to 30 minutes, until the edges are set and a toothpick inserted near the center comes out clean.
 
    Moist crumbs are OK, but no liquid batter should be on the toothpick.
 
