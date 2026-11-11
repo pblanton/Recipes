@@ -35,36 +35,69 @@ These brownies deliver deep chocolate flavor and a dense, fudgy texture without 
 
 ## Ingredients
 
-- ½ cup (1 stick) unsalted butter
-- ¾ cup granulated sugar
-- ¼ cup packed brown sugar
+- 1/2 cup (1 stick) unsalted butter
+- 3/4 cup granulated sugar
+- 1/4 cup packed brown sugar
 - 2 large eggs
+- Heavy Whipping Cream, Half-and-Half, or Milk
 - 1 teaspoon vanilla extract
-- ⅓ cup unsweetened cocoa powder
-- ½ cup gluten-free 1:1 baking flour (preferably containing xanthan gum)
-- ¼ teaspoon salt
-- ¼ teaspoon baking powder
-- ½ cup semisweet chocolate chips (optional; verify gluten-free if needed)
+- 1/3 cup unsweetened cocoa powder
+- 1/2 cup gluten-free 1:1 baking flour 
+- 1/4 teaspoon xanthan gum, if your gluten-free flour mix doesn't have it.
+- 1/4 teaspoon salt
+- 1/4 teaspoon baking powder
+
+Optional
+- 1/2 cup semisweet chocolate chips (optional).
+
+  or
+  
+- 1/2 cup chopped pecans or walnuts (optional).
+
+  or a little of both, Make it yours.
 
 ## Directions
 
-1. Preheat the oven to 350°F (175°C). Line an 8 × 8-inch baking pan with parchment paper, leaving an overhang for lifting out the brownies.
-2. Melt the butter in a small saucepan over low heat or in the microwave. While still warm, stir in the granulated and brown sugars.
-3. Add the eggs and vanilla. Whisk vigorously for 1–2 minutes, until the mixture is smooth and glossy.
-4. In a separate bowl, whisk together the cocoa powder, gluten-free flour, salt, and baking powder.
-5. Fold the dry ingredients into the butter mixture just until no dry streaks remain. Fold in the chocolate chips, if using.
+1. Preheat the oven to 350°F (175°C). Line an 8-inch square baking pan with parchment paper, leaving an overhang for lifting out the brownies.
+
+Secret Sauce...
+2. Melt the butter in a small saucepan over low heat or in the microwave. 
+   - While still warm, stir in the granulated and brown sugars.
+   - If the sugars don't melt into the butter, add a splash of the heavy cream, half-and-half or milk as necessary.
+   - You can substitute a little water if you are trying to avoid dairy, but since you're starting with butter... meh. 
+   - The sugar should melt and turn into a caramel sauce.    
+
+
+3. In a medium bowl, mix up the eggs and vanilla until it is all smooth, then whisk in the caramel sauce vigorously for 1–2 minutes, until the mixture is smooth and glossy.
+
+
+4. Switch from a whisk to a spoon and fold in the cocoa powder, gluten-free flour, salt, and baking powder in that order, until it is uniformly blended.
+
+
+5. If using chocolate chips, pecans, or walnuts, fold them in now.
+
+
 6. Let the batter rest for 10 minutes to hydrate the gluten-free flour, then spread evenly into the prepared pan.
-7. Bake for 25–30 minutes, until the edges are set and a toothpick inserted near the center comes out with moist crumbs rather than liquid batter.
-8. Cool completely in the pan before lifting out and cutting into 16 squares.
+
+
+7. Bake for 25–30 minutes, until the edges are set and a toothpick inserted near the center comes out clean.
+
+   Moist crumbs are OK, but no liquid batter should be on the toothpick.
+
+
+8. Cool completely in the pan before lifting out and cutting into squares.
 
 ## Notes & Tips
 
-- **Extra fudgy:** Omit the baking powder and reduce the flour to ⅓ cup. Begin checking a few minutes early.
-- **More chocolate flavor:** Add ½ teaspoon instant espresso powder to the dry ingredients.
-- **Flour blend:** A gluten-free 1:1 blend with xanthan gum gives the most predictable result. If yours lacks it, add about ⅛ teaspoon xanthan gum.
-- **Texture:** Do not overbake. The brownies continue to set as they cool.
+- **Extra fudgy:** Omit the baking powder and reduce the flour to 1/3 cup. Begin checking a few minutes early.
+- **More chocolate flavor:** Add 1/2 teaspoon instant espresso powder to the dry ingredients.
+- **Flour blend:** A gluten-free 1:1 blend with xanthan gum gives the most predictable result. If yours lacks it, add about 1/4 teaspoon xanthan gum.
+- **Texture:** Do not overbake. The brownies continue to set as they cool. 
+
+   Once the brownies are set, if you want them a little more crispy, place the cut brownies on a baking sheet about an inch apart and bake for another five to seven minutes.
+
 - **Storage:** Keep in an airtight container at room temperature for up to 3 days, refrigerate for up to a week, or freeze tightly wrapped for up to 3 months.
 
 ## Source
 
-Original recipe developed for this binder.
+Phillip H. Blanton
