@@ -65,7 +65,6 @@ Secret Sauce...
 2. Melt the butter in a small saucepan over low heat. 
    - While still warm, stir in the granulated and brown sugars.
    - If the sugars don't melt into the butter, add a splash of the heavy cream, half-and-half or milk as necessary.
-   - You can substitute a little water if you are trying to avoid dairy, but since you're starting with butter... meh. 
    - The sugar should melt and turn into a creamy caramel sauce.    
 
 
