@@ -61,6 +61,7 @@ Optional
 1. Preheat the oven to 350°F (175°C). Line an 8-inch square baking pan with parchment paper, leaving an overhang for lifting out the brownies.
 
 Secret Sauce...
+
 2. Melt the butter in a small saucepan over low heat or in the microwave. 
    - While still warm, stir in the granulated and brown sugars.
    - If the sugars don't melt into the butter, add a splash of the heavy cream, half-and-half or milk as necessary.
